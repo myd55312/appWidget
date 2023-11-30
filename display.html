@@ -4,41 +4,107 @@
     <meta charset="UTF-8">
     <title>Widget</title>
     <link rel="stylesheet" href="indisplay.css">
-</head>
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    .box {
-        float: left;
-        width: 33.33%;
-        padding: 50px;
-    }
-
-    .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-</style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
 </head>
 <body>
-<h1>Widget</h1>
-<p></p>
-<p>Trang chủ </p> <br> <p>Khám phá </p>
+<div class="row">
+    <div class="col-2 side-bar bg-primary row">
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"/>
+                </svg>
+                <span class="fs-4">Sidebar</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#home"/>
+                        </svg>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#speedometer2"/>
+                        </svg>
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#table"/>
+                        </svg>
+                        Orders
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#grid"/>
+                        </svg>
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <svg class="bi me-2" width="16" height="16">
+                            <use xlink:href="#people-circle"/>
+                        </svg>
+                        Customers
+                    </a>
+                </li>
+            </ul>
+            <hr>
 
-<div class="clearfix">
-    <div class="box" style="background-color:#bbb">
-
+        </div>
     </div>
-    <div class="box" style="background-color:#ccc">
-
-    </div>
-    <div class="box" style="background-color:#ddd">
-
+    <div class="col-10 content bg-secondary row">
+        <div class="col-4"><img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="img-thumbnail"
+                alt="Hollywood Sign on The Hill"
+        /></div>
+        <div class="col-4"><img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="img-thumbnail"
+                alt="Hollywood Sign on The Hill"
+        /></div>
+        <div class="col-4"><img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="img-thumbnail"
+                alt="Hollywood Sign on The Hill"
+        /></div>
     </div>
 </div>
-<p>
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.umd.min.js">
+</script>
 </body>
 </html>
